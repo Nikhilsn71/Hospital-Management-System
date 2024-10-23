@@ -18,7 +18,6 @@ import com.hms.model.DoctorModel;
 import com.hms.model.PatientModel;
 import com.hms.repository.PatientRepo;
 
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/v1/")
 public class PatientController {
