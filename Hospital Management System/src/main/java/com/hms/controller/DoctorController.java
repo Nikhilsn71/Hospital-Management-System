@@ -16,7 +16,6 @@ import com.hms.exception.DoctorException;
 import com.hms.model.DoctorModel;
 import com.hms.repository.DoctorRepo;
 
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/v1/")
 public class DoctorController {
